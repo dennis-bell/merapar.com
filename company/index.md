@@ -1,0 +1,4 @@
+---
+layout: company
+title: Company
+---

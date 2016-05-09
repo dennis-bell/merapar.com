@@ -1,0 +1,83 @@
+{% include header.html %}
+<div class="col-xs-12 col-sm-12 col-md-12" id="Blok22" style="margin-top: -10px;">
+    <div class="col-xs-0 col-sm-2 col-md-2" id=""></div>
+    <div class="col-xs-12 col-sm-8 col-md-8" id="careerstext">
+    <h2 id="contacttitle">contact</h2>
+      <p></p>
+    </div>
+    <div class="col-xs-0 col-sm-2 col-md-2" id=""></div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12" id="Blok3">
+    <div class="col-xs-0 col-sm-2 col-md-2" id=""></div>
+    <div class="col-xs-12 col-sm-3 col-md-3" id="contactinfo">
+    <div>
+      <h2 id="subtitle" class="officesubtittle8">contact</h2>
+        <h2 id="minititle" class="officesubtittle9">Merapar Technologies</h2>
+      <p>Sondervick 135<br/>
+        5506 RA Veldhoven<br/>
+        The Netherlands<br/><br/>
+
+        VAT nr: NL 852742575 B 01 <br/>
+        <a href="tel:+31 40 282 6147">Call: +31 40 282 6147</a><br/>
+        <a href="mailto:info@merapar.com">Email: info@merapar.com</p></a>
+    </div>
+    </div>
+    <!--<div class="col-xs-12 col-sm-5 col-md-5" id="">
+        <h2 id="subtitle2" class="officesubtittle1">send us a message</h2>
+        <form action="#" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+</div>
+<p>name (required)<br>
+<span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span> </p>
+<p>eMail address (required)<br>
+<span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"></span> </p>
+<p>subject<br>
+<span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span> </p>
+<p>your message<br>
+<span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
+<p><input type="submit" value="send" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="http://www.merapar.com/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form>
+    </div>
+    <div class="col-xs-0 col-sm-2 col-md-2" id=""></div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12" id="Blok3">
+    <div class="col-xs-0 col-sm-2 col-md-2" id=""></div>-->
+    <div class="col-xs-12 col-sm-4 col-md-4" id="mapping">
+      <h2 id="subtitle2" class="officesubtittle">netherlands office</h2>
+      <div id="overlay" onClick="style.pointerEvents='all'" style="pointer-events: none;">
+        <div id="map_canvas"></div>
+      </div>
+    </div>
+    <div class="col-xs-0 col-sm-8 col-md-6" id=""></div>
+</div>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+	function initialize() {
+	  var mapOptions = {
+	    scaleControl: true,
+	    center: new google.maps.LatLng(51.416301, 5.379338),
+	    zoom: 15,
+	    mapTypeId: google.maps.MapTypeId.TERRAIN
+	  };
+	  var myLatlng = new google.maps.LatLng(51.416301, 5.379338);
+	  var map = new google.maps.Map(document.getElementById('map_canvas'),
+	      mapOptions);
+
+	  var marker = new google.maps.Marker({
+	    map: map,
+	    position: myLatlng
+	    /*map.getCenter()*/
+	  });
+	  var infowindow = new google.maps.InfoWindow();
+	  infowindow.setContent('<b>Sondervick 135</b>');
+	  google.maps.event.addListener(marker, 'click', function() {
+	      infowindow.open(map, marker);
+	  });
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+{% include footer.html %}

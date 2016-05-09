@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    {% if page.sitename != nil %}
+    	{% assign sitename = page.sitename %}
+    {% else %}
+    	{% assign sitename = site.sitename %}
+    {% endif %}
+
+    {% if page.title != nil %}
+    	{% capture title %}{{ page.title }} - {{ site.sitename }}{% endcapture %}
+		{% else %}
+			{% assign title = site.sitename %}
+		{% endif %}
+
+		{% if page.description != nil %}
+  		{% assign description = page.description %}
+		{% else %}
+			{% assign description = site.description %}
+		{% endif %}
+
+		<title>{{ title }}</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- for Google -->
+		{% feed_meta %}
+		<!-- for facebook -->
+  	<meta property="og:url" content="{{ site.baseurl}}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="{{ title }}" />
+		<meta property="og:description" content="{{ description }}" />
+		<meta property="og:image" content="{{ site.baseurl}}/media/logo.jpg"/>
+		<!-- for Twitter -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="{{ title }}"  />
+		<meta name="twitter:description" content="{{ description }}" />
+		<meta name="twitter:image" content="{{ site.baseurl}}/media/logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+		<!-- Main css -->
+		<link rel="stylesheet" href="/css/main.css">
+
+		<!-- Jquery -->
+		<script src="/js/jquery-1.9.1.min.js"></script>
+		<!-- Bootstrap -->
+		<script src="/js/bootstrap.min.js"></script>
+		<!-- Main -->
+		<script src="/js/main.js"></script>
+	</head>
+  <body>
+  	<div class="row">
+  		<div class="col-xs-12 col-sm-12 col-md-12" id="Menu">
+  			<div class="col-xs-0 col-sm-0 col-md-2"></div>
+  			<div class="col-xs-12 col-sm-12 col-md-9" id="Menucontainer">
+  				<a href="/" id="Menulogo"></a>
+  				<ul id="sddm">
+            {% for link in site.navigation %}
+              <li>
+                <a href="{{ site.baseurl}}/{{ link.url }}" onmouseover="mopen('m1')" onmouseout="mclosetime()">{{ link.text }}</a>
+    						<div id="m1" class="dropdownmenu" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="visibility: hidden;"></div>
+    					</li>
+  					{% endfor %}
+  				</ul>
+  				<nav id="menu-primary">
+  					<div class="menu-container">
+
+  						<div id="menu-toggle-primary">
+  							<a class="open-menu-primary" onclick="return showmenu()" style="cursor: pointer;" href="#menu-primary">
+  								<span class="icon-bar"></span>
+  								<span class="icon-bar"></span>
+  								<span class="icon-bar"></span>
+  								<span class="icon-bar"></span>
+  							</a>
+  							<a class="close-menu-primary" onclick="return showmenu()" style="cursor: pointer;" href="#">
+  								<span class="icon-bar"></span>
+  								<span class="icon-bar"></span>
+  								<span class="icon-bar"></span>
+  								<span class="icon-bar"></span>
+  							</a>
+  						</div><!-- .menu-toggle -->
+  					</div><!-- .menu-container -->
+  				</nav>
+  			</div>
+
+  			<div class="col-xs-0 col-sm-0 col-md-1"></div>
+  		</div>
+
+  		<div class="wrap">
+  			<ul class="menu-items" id="menu-primary-items">
+          {% for link in site.navigation %}
+            <li class="menu-item">
+              <a href="{{ site.baseurl}}/{{ link.url }}" style="color: white;z-index:999;">{{ link.text }}</a>
+            </li>
+          {% endfor %}
+  			</ul>
+  		</div>

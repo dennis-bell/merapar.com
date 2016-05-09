@@ -1,0 +1,30 @@
+exclude: [Gemfile, Gemfile.lock, Procfile, vendor, gems, README.md]
+
+sitename:  Merapar Technologies
+tagline: Merapar Technologies is a software project and staffing company.
+description: Merapar Technologies is a software project and staffing company focussing on the development of scalable backend solutions using cloud-based technologies in (private) cloud environments using agile methodologies.
+
+production_url : https://merapartechnologies.com
+url: https://merapartechnologies.com
+baseurl: "" #keep at "" for the Atom feed
+
+safe:        false
+
+future:      false
+highlighter: rouge
+markdown:    kramdown
+
+navigation:
+- text: services
+  url: services
+- text: values and technologies
+  url: technology
+- text: about us
+  url: company
+- text: careers
+  url: careers
+- text: contact
+  url: contact
+
+gems:
+  - jekyll-feed
