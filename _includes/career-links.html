@@ -1,0 +1,11 @@
+{% for career in page.careers %}
+  <div class="panel panel-default" id="backgroundcolor" style="margin-bottom: 4px;">
+    <div class="panel-heading custonstylevalue" role="tab" id="headingThree" style="border: none;">
+      <h4 class="panel-title" >
+        <a role="button" href="{{ career.link }}">
+          {{ career.name }}
+        </a>
+      </h4>
+    </div>
+  </div>
+{% endfor %}

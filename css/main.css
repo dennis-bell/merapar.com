@@ -733,6 +733,7 @@ h2#Blok3sub::after {
     font:          normal 700 24px/1 "Calibri", sans-serif;
     text-align:    center;
     text-shadow:   1px 1px 0 #000;
+    margin-top: 20px;
 }
 
 #careersblock1 img{
@@ -775,6 +776,14 @@ i.icon-chevron-right:before{
 
 .span12{
     margin-top: 45px;
+}
+
+.clear-after:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 div.content-header {
@@ -823,8 +832,15 @@ div.content-body p, div.content-body ul {
     font-size: 16px;
 }
 
+
+/* remove when CSS is cleanup */
 div.content-body ul {
   list-style-image: none;
+}
+
+div.ul-merapar-icons ul {
+  list-style-image: url('../media/merapar-list-icon.png');
+  list-style-position: outside;
 }
 
 h2#block3top::after{

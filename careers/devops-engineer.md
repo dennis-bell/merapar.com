@@ -1,0 +1,38 @@
+---
+layout: career
+title: We are looking for DevOps Engineers!
+description: As an Eindhoven-based startup we are looking for a dedicated and open-minded Lead Java Developer. Our broad portfolio of software projects in an international work environment offer challenging and dynamic career opportunities. Your expertise and knowledge today, may be obsolete tomorrow. It’s important to keep up and staying curious for new technologies. We encourage you to further develop your skills in a dynamic and Agile environment, where quality and robustness of your deliverables are of key importance. You will be working in a flexible environment with a professional and highly motivated team, taking on responsibility for your contribution within the team. We are always looking for new talent, so check out our profiles and we assure you that a challenging and rewarding job in a dynamic environment is waiting for you. 
+
+location: Veldhoven
+startdate: As soon as possible
+---
+##responsibilities
+- You ensure the safe operation of the Linux-based operations
+- During the implementation of complex OpenStack systems you will support the agile project team
+- You guarantee a high level of availability and scalability
+- Monitoring diverse web-projects at different stages are part of your area of responsibility
+- Additionally you will be involved in choosing technologies and structuring system architectures
+- Deploying and Operating OpenStack installations is part of your area of responsibility
+
+##requirements
+- You have a degree in Computer Science or Informatics or at least 2 years of relevant work experience in this area
+- You bring wide experience with OpenStack and Cloud Computing (Amazon AWS) competencies (Spring Framework, Java7 and Java8)
+- You have developed APIs in the past
+- You are experienced with the virtualization of Linux-systems (Vagrant, Docker, KVM, VMWare…) and Bash.
+- You have knowledge with Linux-distribution systems such as RHEL, Ubuntu, Debian and ideally CentOS
+- Relational database system and their management (MySQL) are part of you area of expertise
+- CD/CI and Cloud Computing (Amazon) are your core competencies (Maven, Gradle, Jenkins)
+- You are used to an agile development environment
+- It would be beneficial if you have experience with Docker and Microservices
+- A further plux is know-how regarding MongoDB, Redis and Elasticsearch
+- Good knowledge of English (speak/read/write)
+- You are open-minded and curious about new technologies like Docker, Rocket, Coreos, Ansible, Saltstack, Systemsd and Mesos.
+- Ready for maintain system and platfrom tests (Behalve, Robeot Framework or Cucumber)
+- Ability to propose improvement suggestions, identify and solve problems and work independently
+- NoSQL Database experience (MongoDB, Cassandra, DynamoDB and Redis)
+
+##what we offer
+- Flexible and constantly evolving environment where you will perform tests for a wide range of clients
+- Lot of variation in a growing, challenging and innovative international company
+- We invest in our human capital, we support development and career opportunities
+- Competitive salary and benefit packages 
