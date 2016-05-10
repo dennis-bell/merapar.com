@@ -5,13 +5,13 @@ description: As an Eindhoven-based startup we are looking for a dedicated and op
 location: Veldhoven
 startdate: As soon as possible
 ---
-##responsibilities
+## responsibilities
 - As one of the first developers you will contribute to the evolution of the design and the codebase of the products
 - Evaluation of new technologies and tools
 - Working at the design with the System Architecture Developer
 - Identify weak spots and resolve them
 
-##requirements
+## requirements
 - You have a degree in Computer Science of Informatics or at least 2 years of relevant work experience in this area
 - You consider JavaScript also as a backend technology and you have experience with NodeJS
 - Experience with ES6, (document) databases and new technologies like React and Babel is an advantage
@@ -24,7 +24,7 @@ startdate: As soon as possible
 - NoSQL Database experience (MongoDB, Cassandra, DynamoDB and Redis) is a pré
 
 
-##what we offer
+## what we offer
 - Flexible and constantly evolving environment where you will perform tests for a wide range of clients
 - Lot of variation in a growing, challenging and innovative international company
 - We invest in our human capital, we support development and career opportunities

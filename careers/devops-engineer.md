@@ -6,7 +6,8 @@ description: As an Eindhoven-based startup we are looking for a dedicated and op
 location: Veldhoven
 startdate: As soon as possible
 ---
-##responsibilities
+## responsibilities
+
 - You ensure the safe operation of the Linux-based operations
 - During the implementation of complex OpenStack systems you will support the agile project team
 - You guarantee a high level of availability and scalability
@@ -14,7 +15,8 @@ startdate: As soon as possible
 - Additionally you will be involved in choosing technologies and structuring system architectures
 - Deploying and Operating OpenStack installations is part of your area of responsibility
 
-##requirements
+## requirements
+
 - You have a degree in Computer Science or Informatics or at least 2 years of relevant work experience in this area
 - You bring wide experience with OpenStack and Cloud Computing (Amazon AWS) competencies (Spring Framework, Java7 and Java8)
 - You have developed APIs in the past
@@ -31,7 +33,8 @@ startdate: As soon as possible
 - Ability to propose improvement suggestions, identify and solve problems and work independently
 - NoSQL Database experience (MongoDB, Cassandra, DynamoDB and Redis)
 
-##what we offer
+## what we offer
+
 - Flexible and constantly evolving environment where you will perform tests for a wide range of clients
 - Lot of variation in a growing, challenging and innovative international company
 - We invest in our human capital, we support development and career opportunities
