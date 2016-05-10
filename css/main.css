@@ -330,7 +330,7 @@ body {
     margin-top: -14px;
 }
 
-#Blok2right ul, li{
+#Blok2right ul, #Blok2right li{
 list-style-image: none;
 margin:0px;
 padding:0px;
@@ -775,6 +775,56 @@ i.icon-chevron-right:before{
 
 .span12{
     margin-top: 45px;
+}
+
+div.content-header {
+  background: url("../media/banner.gif");
+  background-repeat: repeat;
+  text-align: center;
+  color: #fff;
+  background-position: 50% 0;
+  min-height: 300px;
+  height: auto;
+  padding: 40px;
+}
+
+div.content-header h1{
+  font-size: 3.75em;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+div.content-header h1:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    margin-top: 70px;
+    left: calc(50% - 25px);
+    background: #FFFFFF;
+    height: 2px;
+}
+
+div.content-body {
+  padding: 40px;
+}
+
+div.content-body h2::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    left: 0;
+    margin-top: 35px;
+    margin-left: 15px;
+    background: #eb6526;
+    height: 2px;
+}
+
+div.content-body p, div.content-body ul {
+    font-size: 16px;
+}
+
+div.content-body ul {
+  list-style-image: none;
 }
 
 h2#block3top::after{
