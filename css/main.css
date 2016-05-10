@@ -7,10 +7,12 @@
   url("../fonts/Flexo-W01-Regular.svg#Flexo W01 Regular") format("svg"); /* iOS 4.1- */
 }
 
+/*
 ul {
     list-style-image: url('../media/bullet.PNG');
     margin-left: 25px;
 }
+*/
 
 h2 {
     font-weight: 300 !important;
