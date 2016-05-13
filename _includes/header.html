@@ -26,7 +26,7 @@
     <!-- for Google -->
 		{% feed_meta %}
 		<!-- for facebook -->
-  	<meta property="og:url" content="{{ site.baseurl}}" />
+  	<meta property="og:url" content="{{ site.production_url }}{{ page.url }}" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="{{ title }}" />
 		<meta property="og:description" content="{{ description }}" />
