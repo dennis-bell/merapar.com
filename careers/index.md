@@ -1,6 +1,6 @@
 ---
 layout: infopage
-title: careers
+title: Careers
 description: Merapar Technologies, an Eindhoven-based startup, providing software development services within the Telecoms, Media and Technology (TMT) sector, are looking for motivated and self-reliant software developers.
 careers:
 - name: Java developer
