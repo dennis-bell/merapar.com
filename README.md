@@ -27,3 +27,14 @@ To start Jekyll server locally.
 4. Run `jekyll serve --watch` and open your browser to http://localhost:4000.
 5. Make some changes, refresh your browser to preview them.
 6. Submit a pull request.
+
+## Development dependencies
+
+For development on i.e. the Mac, you need certain tools.
+1. Install Ruby
+2. Install bundler: `gem install bundler`
+
+## FAQ
+
+Q: When running `jekyll serve --watch`, I get an `Gem::LoadError` error!?
+A: Try executing `bundle exec jekyll serve --watch` instead.
