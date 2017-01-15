@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <html>
 	<head>
     {% if page.sitename != nil %}
@@ -9,24 +9,24 @@
 
     {% if page.title != nil %}
     	{% capture title %}{{ page.title }} - {{ site.sitename }}{% endcapture %}
-		{% else %}
-			{% assign title = site.sitename %}
-		{% endif %}
+	{% else %}
+		{% assign title = site.sitename %}
+	{% endif %}
 
-		{% if page.description != nil %}
-  		{% assign description = page.description %}
-		{% else %}
-			{% assign description = site.description %}
-		{% endif %}
+	{% if page.description != nil %}
+		{% assign description = page.description %}
+	{% else %}
+		{% assign description = site.description %}
+	{% endif %}
 
 		<title>{{ title }}</title>
 		<link rel="shortcut icon" href="/favicon.ico">
 		<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- for Google -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- for Google -->
 		{% feed_meta %}
 		<!-- for facebook -->
-  	<meta property="og:url" content="{{ site.production_url }}{{ page.url }}" />
+		<meta property="og:url" content="{{ site.production_url }}{{ page.url }}" />
 		<meta property="fb:app_id" content="126790634394857" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="{{ title }}" />
@@ -41,7 +41,7 @@
 		<meta name="twitter:title" content="{{ title }}"  />
 		<meta name="twitter:description" content="{{ description }}" />
 		<meta name="twitter:image" content="{{ site.production_url}}/media/logo-fb-medium.jpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap-theme.min.css">
@@ -70,18 +70,18 @@
 		/></noscript>
 		<!-- End Facebook Pixel Code -->
 	</head>
-  <body>
+	<body>
   	<div class="row">
   		<div class="col-xs-12 col-sm-12 col-md-12" id="Menu">
   			<div class="col-xs-0 col-sm-0 col-md-2"></div>
   			<div class="col-xs-12 col-sm-12 col-md-9" id="Menucontainer">
   				<a href="/" id="Menulogo"></a>
   				<ul id="sddm">
-            {% for link in site.navigation %}
-              <li>
-                <a href="{{ site.baseurl}}/{{ link.url }}" onmouseover="mopen('m1')" onmouseout="mclosetime()">{{ link.text }}</a>
-    						<div id="m1" class="dropdownmenu" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="visibility: hidden;"></div>
-    					</li>
+            		{% for link in site.navigation %}
+              		<li>
+                		<a href="{{ site.baseurl}}/{{ link.url }}" onmouseover="mopen('m1')" onmouseout="mclosetime()">{{ link.text }}</a>
+						<div id="m1" class="dropdownmenu" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="visibility: hidden;"></div>
+					</li>
   					{% endfor %}
   				</ul>
   				<nav id="menu-primary">

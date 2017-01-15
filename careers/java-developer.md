@@ -6,14 +6,12 @@ location: Veldhoven
 startdate: As soon as possible
 ---
 ## responsibilities
-
-- You will define and develop microservices based systems. This includes, for example, the communication with other services using REST or Message Queues (RabbitMQ,  gRPC, JSON, Protocol Buffers, MessagePack, Avro)
+- You will define and develop microservices based systems. This includes, for example, the communication with other services using REST or Message Queues (RabbitMQ, gRPC, JSON, Protocol Buffers, MessagePack, Avro)
 - Moreover processing data and implementing features will be your core tasks (XML, XSLT, JSON)
-- Responsible for quality assurance, documentation and problem analysis. (e.g. Pact - ,Design-by-Contract)
+- Responsible for quality assurance, documentation and problem analysis (e.g. Pact, Design-by-Contract and REST Docs)
 - Correct execution of functional and non-functional test cases / test procedures (including understanding of test purpose, correlation of test results)
 
 ## requirements
-
 - You have a degree in Computer Science and at least 2 years of relevant work experience in this area
 - You bring wide experience with Java and Cloud Computing (Amazon AWS) competencies (Spring Framework, Java7 and Java8)
 - You have developed APIs in the past
@@ -28,7 +26,6 @@ startdate: As soon as possible
 - NoSQL Database experience (MongoDB, Cassandra, DynamoDB and Redis)
 
 ## what we offer
-
 - We offer a flexible and constantly evolving environment where you will perform tests for a wide range of clients
 - We offer a lot of variation in a growing, challenging and innovative international company
 - We invest in our human capital, we support development and career opportunities
