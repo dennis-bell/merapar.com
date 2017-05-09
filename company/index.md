@@ -1,7 +1,7 @@
 ---
 layout: infopage
 title: About us
-description: Merapar Technologies is a software project and staffing company focussing on the development of scalable backend solutions using cloud-based technologies in (private) cloud environments using agile methodologies.
+description: Merapar Technologies is a software project company focussing on the development of scalable backend solutions using cloud-based technologies in (private) cloud environments using agile methodologies.
 ---
 
 ## Merapar Technologies
