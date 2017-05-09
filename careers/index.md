@@ -5,8 +5,6 @@ description: Merapar Technologies, an Eindhoven-based startup, providing softwar
 careers:
 - name: Java developer
   link: java-developer.html
-- name: NodeJS developer
-  link: node-developer.html
 - name: DevOps Engineer
   link: devops-engineer.html
 ---
