@@ -1,6 +1,6 @@
 ---
 layout: career
-title: We are looking for a sales manager France, Monaco & Italy
+title: Sales manager France, Monaco & Italy
 description: At Merapar, we specialise in the development of scalable backend solutions and responsive front-end applications in cloud environments using agile methodologies. From providing support on the initial business and technology concepts to successful implementation of operational solutions. Acting as advanced development group to allow for fast introduction and deployment of new technologies and techniques. It is headquartered in the Netherlands with regional offices and staff in the UK, France and Poland. 
 location: Monaco
 startdate: As soon as possible
@@ -26,6 +26,9 @@ As the sales manager you:
 - Driver of the sales process from plan to close
 - Mandatory excellent mentoring, coaching and people management skills
 - French mother tongue
+
+## location:
+Monaco
 
 ## about Merapar
 At Merapar, we specialise in the development of scalable backend solutions and responsive front-end applications in cloud environments using agile methodologies. From providing support on the initial business and technology concepts to successful implementation of operational solutions. Acting as advanced development group to allow for fast introduction and deployment of new technologies and techniques. It is headquartered in the Netherlands with regional offices and staff in the UK, France and Poland.
