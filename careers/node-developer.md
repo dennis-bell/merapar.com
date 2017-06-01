@@ -4,6 +4,8 @@ title: We are looking for JavaScript / NodeJS Full Stack developers!
 description: As an Eindhoven-based startup we are looking for a dedicated and open-minded JavaScript / NodeJS Full Stack Developer. Our broad portfolio of software projects in an international work environment offer challenging and dynamic career opportunities. Your expertise and knowledge today, may be obsolete tomorrow. It’s important to keep up and staying curious for new technologies. We encourage you to further develop your skills in a dynamic and Agile environment, where quality and robustness of your deliverables are of key importance. You will be working in a flexible environment with a professional and highly motivated team, taking on responsibility for your contribution within the team. We are always looking for new talent, so check out our profiles and we assure you that a challenging and rewarding job in a dynamic environment is waiting for you. 
 location: Veldhoven
 startdate: As soon as possible
+mailaddress: recruitment@merapar.com
+
 ---
 ## responsibilities
 - As one of the first developers you will contribute to the evolution of the design and the codebase of the products
