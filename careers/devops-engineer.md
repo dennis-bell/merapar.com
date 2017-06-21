@@ -7,32 +7,58 @@ startdate: As soon as possible
 mailaddress: recruitment@merapar.com
 
 ---
-## responsibilities
-- You ensure the safe operation of the Linux-based operations
-- During the implementation of complex OpenStack systems you will support the agile project team
-- You guarantee a high level of availability and scalability
-- Monitoring diverse web-projects at different stages is part of your area of responsibility
-- Additionally you will be involved in choosing technologies and structuring system architectures
-- Deploying and Operating OpenStack installations is part of your area of responsibility
+## What’s in it for you?
 
-## requirements
+- You’re part of an agile development team building complex systems
+
+- You’re responsible for our micro services framework
+
+- You guarantee that our solutions are high available and scalable
+
+- You design and build monitoring and alarming systems complex solutions
+
+- You’re involved in choosing technologies and structuring system architectures
+
+- You’re directly responsible for deploying and operating automated rollout of solutions
+
+- You educate others within your team on the latest DevOps methodologies and technologies
+
+
+## Who should respond?
+
 - You have a degree in Computer Science or Informatics or at least 2 years of relevant work experience in this area
-- You bring wide experience with OpenStack and Cloud Computing (Amazon AWS) competencies (Spring Framework, Java7 and Java8)
-- You are experienced with the virtualization of Linux-systems (Vagrant, Docker, KVM, VMWare...) and Bash
-- You have knowledge with Linux-distribution systems such as RHEL, Ubuntu, Debian and ideally CentOS
-- Relational database system and their management (MySQL) are part of you area of expertise
-- CD/CI and Cloud Computing (Amazon) are your core competencies (Maven, Gradle, Jenkins)
-- You are used to an agile development environment
-- It would be beneficial if you have experience with Docker and Microservices
-- A further plux is know-how regarding MongoDB, Redis and Elasticsearch
+
 - Good knowledge of English (speak/read/write)
-- You are open-minded and curious about new technologies like Docker, Rocket, Coreos, Ansible, Saltstack, Systemd and Kubernetes
-- Ready for maintain system and platform tests (Behalve, Robot Framework or Cucumber)
-- Ability to propose improvement suggestions, identify and solve problems and work independently
-- NoSQL Database experience (MongoDB, Cassandra, DynamoDB and Redis)
+
+- You bring wide experience with Cloud Computing, experience with Amazon AWS is preferred
+
+- You know your way around within Linux-distributions, experience with Debian and Ubuntu is preferred
+
+- You have profound experience with Continuous Integration and Continuous Deployment systems like Jenkins, Travis or similar
+
+- You are used to an agile development environment
+
+- You have experience with container orchestration systems like Kubernetes, Docker Swarm or Mesos
+
+- A further plus is knowing logging frameworks like ELK (Elasticsearch/Logstash/Kibana)
+
+- You are open-minded and curious about new technologies
+
+- You have a proven understanding of test-driven development
+
+- You proactively propose improvement suggestions, identify and solve problems and work independently
+
 
 ## what we offer
-- Flexible and constantly evolving environment where you will perform tests for a wide range of clients
-- Lot of variation in a growing, challenging and innovative international company
+
+- We offer a flexible and constantly evolving environment where you will perform tests for a wide range of clients
+
+- We offer a lot of variation in a growing, challenging and innovative international company
+
 - We invest in our human capital, we support development and career opportunities
-- Competitive salary and benefit packages 
+
+- We offer a competitive salary and benefit packages
+
+
+
+## What if you don’t tick all these boxes, but you still like what you see? Just click ’Apply Now’ below and we’ll invite you for a cup of coffee!
