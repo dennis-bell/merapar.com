@@ -7,27 +7,46 @@ startdate: As soon as possible
 mailaddress: recruitment@merapar.com
 
 ---
-## responsibilities
+## What’s in it for you?
+
 - As one of the first developers you will contribute to the evolution of the design and the codebase of the products
+
 - Evaluation of new technologies and tools
+
 - Working at the design with the System Architecture Developer
+
 - Identify weak spots and resolve them
 
-## requirements
+
+## Who should respond?
+
 - You have a degree in Computer Science of Informatics or at least 2 years of relevant work experience in this area
+
 - You consider JavaScript also as a backend technology and you have experience with NodeJS
+
 - Experience with ES6, (document) databases and new technologies like React and Babel is an advantage
+
 - An agile environment and workflow is something positive for you
+
 - You have developed APIs in the past
+
 - CD/CI and Cloud Computing (Amazon) are your core competencies (Maven, Gradle, Jenkins)
+
 - It would be beneficial if you have experience with Docker and Microservices
+
 - Good knowledge of English (speak/read/write)
+
 - You are open-minded and curious about new technologies
+
 - NoSQL Database experience (MongoDB, Cassandra, DynamoDB and Redis) is a pré
 
 
 ## what we offer
+
 - Flexible and constantly evolving environment where you will perform tests for a wide range of clients
+
 - Lot of variation in a growing, challenging and innovative international company
+
 - We invest in our human capital, we support development and career opportunities
+
 - Competitive salary and benefit packages 

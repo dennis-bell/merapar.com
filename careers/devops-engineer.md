@@ -24,7 +24,6 @@ mailaddress: recruitment@merapar.com
 - You educate others within your team on the latest DevOps methodologies and technologies
 
 
-
 ## Who should respond?
 
 - You have a degree in Computer Science or Informatics or at least 2 years of relevant work experience in this area
@@ -49,6 +48,16 @@ mailaddress: recruitment@merapar.com
 
 - You proactively propose improvement suggestions, identify and solve problems and work independently
 
+
+## what we offer
+
+- We offer a flexible and constantly evolving environment where you will perform tests for a wide range of clients
+
+- We offer a lot of variation in a growing, challenging and innovative international company
+
+- We invest in our human capital, we support development and career opportunities
+
+- We offer a competitive salary and benefit packages
 
 
 

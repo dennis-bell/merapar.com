@@ -6,26 +6,45 @@ location: Monaco
 startdate: As soon as possible
 mailaddress: jobs.fr@merapar.com
 ---
+
 ## description
+
 As the sales manager you:
-- Achieve growth and hit sales targets by successfully managing the sales 
-- Design and implement a strategic business plan that expands company’s customer base 
+- Achieve growth and hit sales targets by successfully managing the sales
+
+- Design and implement a strategic business plan that expands company’s customer base
+
 - In time, wwn recruiting, objectives setting, coaching and performance monitoring of sales representatives
+
 - Build and promote strong, long-lasting customer relationships by partnering with them
+
 - Present sales, revenue and expenses reports and realistic forecasts to the director of sales
+
 - Identify emerging markets and market shifts while being fully aware of new products and competition status
+
 - Promote brand awareness and preference in the market.
 
+
 ## profile
+
 - Graduated with a business degree
+
 - Solid network and address book in France and ideally Italy
+
 - Motivation for sales, negotiations and building relationships
+
 - Extensive market knowledge of selling software as Sprints and professional services
+
 - Committed to continuous education through workshops, seminars and conferences
+
 - Natural communicator able to present and influence effectively at all levels of the organization
+
 - Driver of the sales process from plan to close
+
 - Mandatory excellent mentoring, coaching and people management skills
+
 - French mother tongue
+
 
 ## location:
 Monaco
