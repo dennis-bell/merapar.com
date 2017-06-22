@@ -112,7 +112,7 @@
   			<ul class="menu-items" id="menu-primary-items">
           {% for link in site.navigation %}
             <li class="menu-item">
-              <a href="{{ site.baseurl}}/{{ link.url }}" style="color: white;z-index:999;">{{ link.text }}</a>
+              <a href="{{ link.url }}" style="color: white;z-index:999;">{{ link.text }}</a>
             </li>
           {% endfor %}
   			</ul>
