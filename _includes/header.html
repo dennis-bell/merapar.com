@@ -79,7 +79,7 @@
   				<ul id="sddm">
             		{% for link in site.navigation %}
               		<li>
-                		<a href="{{ site.baseurl}}/{{ link.url }}" onmouseover="mopen('m1')" onmouseout="mclosetime()">{{ link.text }}</a>
+                		<a href="{{ link.url }}" onmouseover="mopen('m1')" onmouseout="mclosetime()">{{ link.text }}</a>
 						<div id="m1" class="dropdownmenu" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" style="visibility: hidden;"></div>
 					</li>
   					{% endfor %}
