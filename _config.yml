@@ -25,6 +25,8 @@ navigation:
   url: careers
 - text: contact
   url: contact
+- text: blog
+  url: https://blog.merapar.com
 
 gems:
   - jekyll-feed
