@@ -35,4 +35,4 @@ We’re looking for a student marketing, communication or similar (Bachelor or M
 
 - We invest in our human capital, we support development and career opportunities
 
-Are you that MarcCom Jack-of-all-trades that will enforce our team? Please click ‘Apply Now’ below!
+Are you that MarCom Jack-of-all-trades that will enforce our team? Please click ‘Apply Now’ below!
