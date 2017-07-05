@@ -11,7 +11,7 @@ mailaddress: recruitment@merapar.com
 
 Merapar is specialised in complex cloud technology, advice and projects. We’re about to boost our brand, our online assets and communication to a higher level. We’re a young, Veldhoven based, technology start-up with high ambitions. We’re growing fast and are actively seeking passionate people to join our team. This is where you come in! 
 
-We’re looking for a student marketing, communication or similar (Bachelor or Master), that can help us during their studies to define and create our online and social media channels, (online) communication and (brand)positioning. Examples are creating website content, industry blogs, LinkedIn posts, webinars, conferences, (recruitment) campaigns, etc. We prefer someone that’s able to help us for 1-2 days a week. You work from our offices in Veldhoven. We’re flexible in the exact working hours/days.
+We’re looking for a student marketing, communication or similar (Bachelor or Master), that can help us during their studies to define and create our online and social media channels, (online) communication and (brand)positioning. Examples are creating website content, industry blogs, LinkedIn posts, webinars, conferences, (recruitment) campaigns, etc. We prefer someone that’s able to help us for 1-2 days a week. You work from our office in Veldhoven. We’re flexible in the exact working hours/days.
 
 ## Who should respond?
 - You are a student Marketing, Communication, or similar (Bachelor or Master)
