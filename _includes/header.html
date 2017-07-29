@@ -109,10 +109,10 @@
   		</div>
 
   		<div class="wrap">
-  			<ul class="menu-items" id="menu-primary-items">
+  			<ul class="menu-items" id="menu-primary-items" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
           {% for link in site.navigation %}
-            <li class="menu-item">
-              <a href="{{ link.url }}" style="color: white;z-index:999;">{{ link.text }}</a>
+            <li class="menu-item" itemprop="name">
+              <a href="{{ link.url }}" style="color: white;z-index:999;" itemprop="url">{{ link.text }}</a>
             </li>
           {% endfor %}
   			</ul>
