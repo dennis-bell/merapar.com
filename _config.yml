@@ -16,15 +16,17 @@ markdown:    kramdown
 
 navigation:
 - text: services
-  url: services
+  url: /services
 - text: values and technologies
-  url: technology
+  url: /technology
 - text: about us
-  url: company
+  url: /company
 - text: careers
-  url: careers
+  url: /careers
 - text: contact
-  url: contact
+  url: /contact
+- text: blog
+  url: https://blog.merapar.com
 
 gems:
   - jekyll-feed

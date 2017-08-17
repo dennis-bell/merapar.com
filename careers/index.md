@@ -5,6 +5,8 @@ description: Merapar Technologies, an Eindhoven-based startup, providing softwar
 careers:
 - name: Sales manager France, Monaco & Italy
   link: sales-manager-france.html
+- name: Marketing/Communication student
+  link: marcom.html
 - name: Java developer
   link: java-developer.html
 - name: DevOps Engineer

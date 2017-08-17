@@ -56,11 +56,11 @@
 	function initialize() {
 	  var mapOptions = {
 	    scaleControl: true,
-	    center: new google.maps.LatLng(51.416301, 5.379338),
-	    zoom: 15,
+	    center: new google.maps.LatLng(51.3994992,5.3967615),
+	    zoom: 11,
 	    mapTypeId: google.maps.MapTypeId.TERRAIN
 	  };
-	  var myLatlng = new google.maps.LatLng(51.416301, 5.379338);
+	  var myLatlng = new google.maps.LatLng(51.3994992,5.3967615);
 	  var map = new google.maps.Map(document.getElementById('map_canvas'),
 	      mapOptions);
 
@@ -70,7 +70,7 @@
 	    /*map.getCenter()*/
 	  });
 	  var infowindow = new google.maps.InfoWindow();
-	  infowindow.setContent('<b>Sondervick 135</b>');
+	  infowindow.setContent('<b>De Run 8417</b>');
 	  google.maps.event.addListener(marker, 'click', function() {
 	      infowindow.open(map, marker);
 	  });
